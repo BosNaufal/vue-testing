@@ -1,6 +1,6 @@
 {
   "name": "vue-testing",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Makes Vue Testing And Mocking Become Easier And Much Fun",
   "main": "./dist/vue-testing.js",
   "scripts": {
