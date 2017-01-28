@@ -57,7 +57,7 @@ it('should render', () => {
 ```
 
 ### Magic Vue Properties
-Probably, you'll not get frustated with that code. Cause it simple. until your component use vue properties that magically injected by some plugin. For example ```vue-router``` inject ```this.$router``` and ```this.$route``` Or ```vuex``` inject ```this.$store```. It will throw error variable undefined since we not render the whole app. So, How do you handle it without touching your component code? It need some effort.
+Probably, you'll not get frustated with that code. Cause it's simple. until your component uses vue properties that magically injected by some plugin. For example ```vue-router``` injects ```this.$router``` and ```this.$route``` Or ```vuex``` injects ```this.$store```. It will throw error variable undefined since we not render the whole app. So, How do you handle it without touching your component code? It needs some effort.
 
 ```html
 <!-- example.vue -->
@@ -118,7 +118,7 @@ it('should render', () => {
 ```
 
 ### Vuex Helper Function
-Oke, let's say that you always pass the router params via props since ```vue-router@2.2.x```. But you'll get the problem again when you're using vuex helper function like ```mapActions```, ```mapStates```, ```mapGetters```. Sure, you need write more.
+Oke, let's say that you always pass the router params via props since ```vue-router@2.2.x```. But you'll still get the problem  when you're using vuex helper function like ```mapActions```, ```mapStates```, ```mapGetters```. Sure, you need write more.
 
 ```html
 <!-- example.vue -->
@@ -276,7 +276,7 @@ describe('ExampleComponent', function () {
 })
 ```
 
-## Have You Test Your Components? You Should Be~
+## Have You Tested Your Components? You Should Be~
 
 ## Thank You for Making this useful~
 
@@ -289,4 +289,4 @@ Just Contact Me At:
 
 ## License
 [MIT](http://opensource.org/licenses/MIT)
-Copyright (c) 2016 - forever Naufal Rabbani
+Copyright (c) Naufal Rabbani
