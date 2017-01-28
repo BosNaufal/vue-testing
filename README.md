@@ -4,10 +4,7 @@ Let's make Vue Testing And [Mocking](https://vue-loader.vuejs.org/en/workflow/te
 
 ## Installation
 ```bash
-npm install vue-testing --save-dev
-
-# Dev Dependencies
-npm install inject-loader --save-dev
+npm install vue-testing inject-loader --save-dev
 ```
 
 ## Motivation
