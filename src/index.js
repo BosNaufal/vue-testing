@@ -42,8 +42,8 @@ export function defaultInjections(injects) {
 
   // If there's an injection
   // Destruct
-  const internal = new Map()
-  const others = new Map()
+  const internal = {}
+  const others = {}
   const keys = Object.keys(injects)
   keys.forEach((key) => {
     if (

@@ -1,8 +1,8 @@
 /*!
- * Copyright (c) 2016 Naufal Rabbani (http://github.com/BosNaufal)
+ * Copyright (c) Naufal Rabbani (http://github.com/BosNaufal)
  * Licensed Under MIT (http://opensource.org/licenses/MIT)
  * 
- * Vue Testing @ Version 0.0.1
+ * Vue Testing @ Version 0.0.2
  * 
  */
 (function webpackUniversalModuleDefinition(root, factory) {
@@ -118,8 +118,8 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	  // If there's an injection
 	  // Destruct
-	  var internal = new Map();
-	  var others = new Map();
+	  var internal = {};
+	  var others = {};
 	  var keys = Object.keys(injects);
 	  keys.forEach(function (key) {
 	    if (key !== 'states' && key !== 'actions' && key !== 'getters' && key !== 'sagas' && key !== 'propsData') {
